@@ -46,7 +46,7 @@ namespace InventoryManagementForm
                 lblAddMsg.Text = "record added successfully!";
                 lblAddMsg.ForeColor = Color.Green;
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 lblAddMsg.Text = "ExceptionL Database error";
                 lblAddMsg.ForeColor = Color.Red;
@@ -60,7 +60,7 @@ namespace InventoryManagementForm
                 lblModifyMsg.Text = "record modified successfully!";
                 lblModifyMsg.ForeColor = Color.Green;
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 lblModifyMsg.Text = "ExceptionL Database error";
                 lblModifyMsg.ForeColor = Color.Red;
@@ -74,7 +74,7 @@ namespace InventoryManagementForm
                 lblDeleteMsg.Text = "record created successfully!";
                 lblDeleteMsg.ForeColor = Color.Green;
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 lblDeleteMsg.Text = "ExceptionL Database error";
                 lblDeleteMsg.ForeColor = Color.Red;

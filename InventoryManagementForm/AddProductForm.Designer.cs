@@ -285,8 +285,8 @@
             this.Controls.Add(this.labelManufacturer);
             this.Controls.Add(this.labelModelNo);
             this.Controls.Add(this.labelItemName);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Name = "Products";
+            this.Text = "Products";
             this.tabControl1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
